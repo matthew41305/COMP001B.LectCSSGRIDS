@@ -1,0 +1,23 @@
+/* Container Grid */
+.container {
+    display: grid;
+    grid-template-rows: 100px auto 50px;
+    grid-template-columns: 1fr;
+    height: 100vh;
+  }
+  
+  header, footer {
+    background-color: #dd150f;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f0f0;
+    padding: 20px;
+  }
+  
